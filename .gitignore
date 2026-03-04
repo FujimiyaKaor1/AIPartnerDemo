@@ -1,0 +1,32 @@
+# 敏感数据 - 用户聊天记录
+sessions/
+*.json
+
+# IDE 配置 - 包含本地路径信息
+.idea/
+.vscode/
+*.iml
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+CACHEDIR.TAG
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env
+.env.local
